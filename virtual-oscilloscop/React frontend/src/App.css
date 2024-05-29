@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('images/5072609.jpg');
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.App h1{
+  color: aliceblue;
+  font-weight: 200;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+  z-index: 1;
+}
+
+.graph{
+  padding: 0.5rem;
+  padding-inline: 1rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(3px) ;
+  border-radius: 0.8rem;
+  margin-top: 1rem;
+  z-index: 1;
+}
+
+#uni-logo{
+  position: absolute;
+  z-index: 0;
+  width: 100px;
+  opacity: 0.7;
+  bottom: 30px;
+  right: 30px;
+}
+
+#dets-logo{
+  position: absolute;
+  z-index: 0;
+  width: 150px;
+  opacity: 0.7;
+  top: 5px;
+  left: 5px;
+}
